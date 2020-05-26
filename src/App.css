@@ -2,6 +2,20 @@
     display: flex;
     width: 100%;
 }
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(14, 13, 13);
+    margin-top: 50px;
+}
+.containerFan {
+    display: flex;
+    justify-content: space-evenly;
+}
+.containterClock {
+    display: flex;
+
+}
 
 
 /* Left sidebar */
