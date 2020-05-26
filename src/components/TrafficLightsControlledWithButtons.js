@@ -2,7 +2,7 @@ import React from 'react';
 import './TrafficLightsBtns.css'
 import TrafficLights from './TrafficLights';
 
-export default class TrafficLightsControlledWithButtons extends React.Component {
+ class TrafficLightsControlledWithButtons extends React.Component {
     constructor(props) {
         super(props);
 
@@ -64,4 +64,6 @@ export default class TrafficLightsControlledWithButtons extends React.Component 
             </div>
         )
     }
-}
+};
+
+export default TrafficLightsControlledWithButtons;
